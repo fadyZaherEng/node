@@ -11,3 +11,5 @@ console.log(calc.add(1, 2));
 console.log(calc.sub(2, 1));
 console.log(calc.mul(2, 3));
 console.log(calc.div(6, 2));
+//user defined modules with key and varribles
+console.log(calc.title);
