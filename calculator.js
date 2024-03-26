@@ -1,3 +1,4 @@
+console.log("hello world");
 const add=(a,b)=>a+b;
 
 const sub=(a,b)=>a-b;
@@ -14,3 +15,5 @@ module.exports={
     mul,
     div    
 };
+var fileName=__filename;
+var dirName=__dirname;
