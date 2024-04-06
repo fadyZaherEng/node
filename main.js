@@ -23,7 +23,7 @@ const lodash = require('lodash');
 console.log(lodash.assignInWith);  
 const prettier = require('prettier');
 console.log(prettier.getFileInfo); //lodash
-//fs Modules
+//fs Modules file system
 const fs=require("node:fs");
 const fsWrite=fs.writeFileSync("./data.text","hell World");
 const  fsAppend=fs.appendFileSync("./data.text"," APPEND");
