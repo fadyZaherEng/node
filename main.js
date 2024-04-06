@@ -38,7 +38,13 @@ var obj={
 const objStrFileJson=JSON.stringify(obj);//convert any type to string if type object convert to string file json
 const stringJsonFileToObject=JSON.parse(objStrFileJson);
 //form json file
-const an=require("fs");
-const fsJson=an.readFileSync("./jsonfile.json","utf-8");
+var jsonObj={
+    "name":"Fady",
+    "title":"Software Engineer",
+    "old":25
+};
+const write=fs.writeFileSync('./obj.json',JSON.stringify(jsonObj));
+const fsJson=fs.readFileSync("./obj.json","utf-8");
 const objJson=JSON.parse(fsJson);
+console.log(fsJson);
 console.log(objJson);
